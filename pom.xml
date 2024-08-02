@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Clean architecture core library for java project.</name>
+    <description>A simple library to implement clean architecture in java project.</description>
+
+    <groupId>com.ug</groupId>
+    <artifactId>clean-architecture-core</artifactId>
+    <version>1.0.0</version>
+
+    <developers>
+        <developer>
+            <name>Ulrich Geraud AHOGLA</name>
+            <email>iamcleancoder@gmail.com</email>
+            <organization>Urichy</organization>
+            <organizationUrl>https://github.com/ug-libraries</organizationUrl>
+        </developer>
+    </developers>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Urichy Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/ug-libraries/clean-architecture-core-java</url>
+        </repository>
+    </distributionManagement>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
